@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEB'S</title>
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffffb2;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #000000;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #243a58;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: #243a58;
+    transform: scale(1.1);
+}
+
+.footer-bottom{
+    background: #ced8e4;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+main {
+    margin-bottom: 100px; /* Ajusta el valor según sea necesario */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('fondo.jpg');
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #243a58;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #0037ad;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+/*footer*/
+.footer{
+    background-color: #000000;
+    padding: 80px 0;   
+}
+.cont_footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer_row{display: flex;
+flex-wrap: nowrap;
+}
+.footer_links{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer_links h4{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #A22245;
+    display: inline-block;
+    align-items: center;
+}
+.footer_links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer_links ul li a :hover{
+    color: aqua;
+    padding-left: 6px;
+}
+.footer_social{
+    display: inline-block;
+    min-width: 40px;
+    width: 40px;
+    margin: 0 10px 0 ;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    transition: all .5s ease;
+    align-items: center;
+}
+
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+</style>
+<body id="body" background="fondo.png">
+    
+    <header>
+      
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a class="rd" href="HTML's/mision.html">MISION</a></li>
+                <li><a class="rd" href="HTML's/vision.html">VISION</a></li>
+                <li><a class="rd" href="HTML's/ubicacion.html">UBICACION</a></li>
+                <li><a class="rd" href="HTML's/webmaster.html">WEB MASTER</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <a href="Index.html" ><img class="logosebs" src="img/logo.png" alt=""></a>
+            <h4 class="title">SEB'S</h4>
+        </div>
+        <div class="options__menu">	
+
+            <a href="FormulariosCliente.html" class="selected">
+                <div class="option">
+                    <i class="far fa-file" title="Inicio"></i>
+                    <h5>F. CLIENTE</h5>
+                </div>
+            </a>
+
+            <a href="FormularioProductos.html">
+                <div class="option">
+                    <i class="far fa-file" title="Portafolio"></i>
+                    <h5>F. PRODUCTOS</h5>
+                </div>
+            </a>
+            
+            <a href="FormularioEmpleado.html">
+                <div class="option">
+                    <i class="far fa-file" title="Cursos"></i>
+                    <h5>F. EMPLEADO</h5>
+                </div>
+            </a>
+
+            <a href="FormularioProvedores.html">
+                <div class="option">
+                    <i class="far fa-file" title="Blog"></i>
+                    <h5>F. PROVEDORES</h5>
+                </div>
+            </a>
+
+            <a href="FormularioSucursales.html">
+                <div class="option">
+                    <i class="far fa-file" title="Contacto"></i>
+                    <h5>F. SURCUSALES</h5>
+                </div>
+            </a>
+            <a href="tables/tablaCliente.html">
+                <div class="option">
+                    <i class="far fa-file" title="Contacto"></i>
+                    <h5>Tabla Cliente</h5>
+                </div>
+            </a>
+            <a href="tables/tablaProducto.html">
+                <div class="option">
+                    <i class="far fa-file" title="Contacto"></i>
+                    <h5>Tabla Producto</h5>
+                </div>
+            </a>
+            <a href="tables/tablaempleados.html">
+                <div class="option">
+                    <i class="far fa-file" title="Contacto"></i>
+                    <h5>Tabla Empleado</h5>
+                </div>
+            </a>
+            <a href="tables/tablaProveedores.html">
+                <div class="option">
+                    <i class="far fa-file" title="Contacto"></i>
+                    <h5>Tabla Proveedores</h5>
+                </div>
+            </a>
+            <a href="tables/tablaSucursales.html">
+                <div class="option">
+                    <i class="far fa-file" title="Contacto"></i>
+                    <h5>Tabla Sucursales</h5>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <main>
+        <article id="ate">
+            <section class="form-register">
+                <h4>Formulario Proveedores</h4>
+                <input class="controls" type="number" name="id" id="id" placeholder="ID Provedor">
+                <input class="controls" type="text" name="titulo" id="titulo" placeholder="Nombre Comercial">
+                <input class="controls" type="text" name="Plataforma" id="Plataforma" placeholder="RFC">
+                <input class="controls" type="text" name="genero" id="genero" placeholder="Tipo De Producto">
+                <input class="controls" type="text" name="descripcion" id="descripcion" placeholder="Direccion">
+                <input class="controls" type="text" name="Marca" id="Marca" placeholder="Telefono">
+                <input class="controls" type="text" name="fecha" id="fecha" placeholder="Emal">
+
+              </section>
+        </body>
+        </article>
+        </main>
+
+    <script src="js/script.js"></script>
+    <footer>
+        <div class="footer-content">
+            <h3>SEB'S</h3>
+            <p>SEB'S,una web donde puedes encontrar tus discos musicalles favoritos</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 JorgiCT. diseñada por JORGE A. CENICEROS TORRES</p>
+        </div>
+    </footer>
+</body>
+
+</html>
